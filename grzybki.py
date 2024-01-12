@@ -128,7 +128,7 @@ plt.ylabel('Node')
 plt.colorbar(label='Node Value', orientation='vertical')
 plt.show()
 
-"""'''## FOREST'''"""
+"""'''FOREST'''"""
 
 # Utwórz klasyfikator RandomForestClassifier
 rf_classifier = RandomForestClassifier(random_state=42, criterion="entropy", max_depth=10)
